@@ -137,17 +137,14 @@ def grab_date():
     #Days = (date2 - date1).days
     return None
 
-#my_button = tk.Button(root, text = 'Get Date', command = grab_date)
-#my_label = tk.Label(root,text = "")
-#my_label.place(x=50,y=650)
+
 
 Delete =tk.Button(root, text = 'Start Delete',command = lambda: del_func(file_gtm.get(),file_gdx.get(),file_sim.get(),file_trn.get(),file_xlsx.get(),file_pptx.get(),file_docx.get(),file_simt.get(),file_csv.get(),file_xb.get(),file_xt.get(), file_prt.get(), file_png.get(), file_avi.get(), file_mpeg.get(), other.get(), Entry_folder.get(),datetime.datetime.strptime(cal.get_date(), "%m/%d/%y")))
 Delete.place(x=50, y=600)
 
 
-#mylabel2 = tk.Label(root, text = "")
-#mylabel2.pack(pady = 20)
-
+l4 = tk.Label(root,text = 'Developed by Chaithanya')
+l4.place(x=600, y=600)
 
 root.mainloop()
 
